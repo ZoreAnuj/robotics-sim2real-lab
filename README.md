@@ -1,19 +1,23 @@
-# robotis_lab
+# Robotis Lab: Reinforcement & Imitation Learning Tutorials
 
-This repository provides tutorials and tools for reinforcement learning (RL) and imitation learning using ROBOTIS robots. It enables training policies in simulation and supports Sim2Real deployment to transfer learned behaviors onto physical hardware, facilitating practical robotics research.
+This repository provides tutorials for training reinforcement learning and imitation learning agents with ROBOTIS robots. It enables Sim2Real transfer, allowing policies learned in simulation to be deployed on physical hardware. The project serves as a practical exploration of modern robot learning pipelines.
 
 ## Key Features
-* Tutorials for reinforcement and imitation learning with ROBOTIS robot models.
-* Sim2Real pipeline for deploying trained policies from simulation to real robots.
-* Integration with common RL libraries and simulation environments.
+*   Tutorials for Reinforcement Learning (RL) and Imitation Learning (IL).
+*   Sim2Real functionality for policy deployment on real ROBOTIS robots.
+*   Pre-configured simulation environments for rapid prototyping.
+*   Example policies and training scripts for quick experimentation.
 
 ## Tech Stack
-* Python
-* ROS (Robot Operating System)
-* OpenAI Gym / Gazebo
-* PyTorch / TensorFlow
+*   Python
+*   ROS (Robot Operating System)
+*   OpenAI Gym / Gazebo
+*   PyTorch
 
 ## Getting Started
-1. Clone the repository: `git clone https://github.com/zoreanuj/robotis_lab.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Follow the setup instructions in the `/tutorials` directory to run the examples.
+```bash
+git clone https://github.com/zoreanuj/robotis_lab.git
+cd robotis_lab
+pip install -r requirements.txt
+# Follow the specific tutorial READMEs for setup and execution.
+```
